@@ -1,4 +1,4 @@
-# R-Programming-private
+# R-Programming-Google Data Analytics course notes
 R Programming - Google DA course notes
 
 
