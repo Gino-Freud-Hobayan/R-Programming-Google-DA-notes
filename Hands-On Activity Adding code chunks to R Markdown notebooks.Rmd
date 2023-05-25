@@ -1,0 +1,30 @@
+---
+title: "Hands-On Activity Adding code chunks to R Markdown notebooks"
+author: "Gino"
+date: "2023-05-25"
+output: html_document
+---
+
+### Step one
+To call the required libraries, load the penguins data, and return a view of the penguins data:
+
+```{r ggplot for penguin data}
+library(ggplot2)
+library(palmerpenguins)
+data(penguins)
+View(penguins)
+```
+
+
+
+
+### Step two
+Create the Visualization
+
+```{r ggplot for penguin data visualization}
+ggplot(data = penguins) +
+  geom_point(mapping = aes(x = flipper_length_mm, y = body_mass_g))
+```
+
+
+
